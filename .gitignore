@@ -1,0 +1,14 @@
+__pycache__/
+.ipynb_checkpoints/
+.agents/
+.venv/
+venv/
+env/
+*.pyc
+*.pkl
+*.joblib
+*.docx
+*.pdf
+.DS_Store
+Thumbs.db
+Darfts/
