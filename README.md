@@ -7,6 +7,7 @@ The main modeling challenge is class imbalance: most clients do not subscribe, s
 ## Files
 
 - `bank_marketing_clean.py` - cleaned, reproducible modeling pipeline.
+- `bank_marketing_clean_workflow.ipynb` - readable notebook version that starts with data inspection, then runs the corrected modeling workflow.
 - `Bank-marketing Imbalanced Dataset.ipynb` - original exploratory notebook.
 - `phpkIxskf.arff` - Bank Marketing dataset in ARFF format.
 - `requirements.txt` - Python dependencies.
@@ -39,6 +40,8 @@ Create an environment, install dependencies, and run the cleaned script:
 pip install -r requirements.txt
 python bank_marketing_clean.py
 ```
+
+Or open `bank_marketing_clean_workflow.ipynb` in Jupyter to see the data inspection and modeling steps in notebook form.
 
 The script prints model comparison metrics and confusion matrices for each approach.
 
